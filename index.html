@@ -200,7 +200,12 @@ This division process continues recursively, partitioning the scene into increas
                 <div class="text-justify">
                     The parent nodes in the LoD tree act as a smoother, low-pass-filtered version of the scene. Therefore, high-frequency components in distant views are automatically removed, which effectively reduces the aliasing artifacts.
                 </div>
-                   
+                <div class="container" style="width: 100%">
+                    <div class="row " style="overflow: hidden;">
+                        <div class="col" style="float: left;"><h4>InfNeRF</h4></div>  
+                        <div class="col"style="float: right;"><h4>Nerfacto</h4></div>                         
+                    </div> 
+                </div> 
                 <div class="video-compare-container"style="width: 100%">
                     <video class="video" id="AAbuilding" loop playsinline autoPlay muted src="video/building_anti-aliasing.mp4" onplay="resizeAndPlay(this)"></video>
                     <canvas height=0 class="videoMerge" id="AAbuildingMerge"></canvas>
